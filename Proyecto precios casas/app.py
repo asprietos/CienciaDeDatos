@@ -11,9 +11,9 @@ from streamlit_folium import folium_static
 
 st.title('Dinámica Inmobiliaria en King County')
 
-# data = pd.read_csv('data/kc_house_data.csv')
+# data = pd.read_csv('data/Datacasas.csv')
 
-url = 'https://raw.githubusercontent.com/sebmatecho/CienciaDeDatos/master/ProyectoPreciosCasas/data/kc_house_data.csv'
+url = 'https://raw.githubusercontent.com/asprietos/CienciaDeDatos/main/Proyecto%20precios%20casas/data/Datacasas.csv'
 data = pd.read_csv(url,index_col=0,parse_dates=[0])
 
 

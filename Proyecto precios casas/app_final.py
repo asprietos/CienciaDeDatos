@@ -21,7 +21,7 @@ def get_geofile(url):
     return geofile
 
 # Get data
-path = 'data/kc_house_data.csv'
+path = 'data/Datacasas.csv'
 data = get_data(path)
 
 #Get geofile 
